@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2D20EDCE-69A0-4B93-A670-D3FC4826610E}</ProjectGuid>
+    <RootNamespace>oracle_homework5</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>C:\Program Files\MySQL\MySQL Server 5.6\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>C:\Program Files\MySQL\MySQL Server 5.6\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AddBookShop.h" />
+    <ClInclude Include="add_book.h" />
+    <ClInclude Include="add_librarian.h" />
+    <ClInclude Include="add_order.h" />
+    <ClInclude Include="add_orderadmin.h" />
+    <ClInclude Include="add_press.h" />
+    <ClInclude Include="add_pressadmin.h" />
+    <ClInclude Include="add_teacher.h" />
+    <ClInclude Include="aspect_all_h.h" />
+    <ClInclude Include="change_book.h" />
+    <ClInclude Include="change_book_start.h" />
+    <ClInclude Include="change_librarian.h" />
+    <ClInclude Include="change_librarianname.h" />
+    <ClInclude Include="change_librarianpassword.h" />
+    <ClInclude Include="change_librarian_start.h" />
+    <ClInclude Include="change_order.h" />
+    <ClInclude Include="change_orderadmin.h" />
+    <ClInclude Include="change_orderadminname.h" />
+    <ClInclude Include="change_orderadminpassword.h" />
+    <ClInclude Include="change_orderadmin_start.h" />
+    <ClInclude Include="change_order_start.h" />
+    <ClInclude Include="change_press.h" />
+    <ClInclude Include="change_pressadmin.h" />
+    <ClInclude Include="change_pressadmin_start.h" />
+    <ClInclude Include="change_pressname.h" />
+    <ClInclude Include="change_presspassword.h" />
+    <ClInclude Include="change_press_start.h" />
+    <ClInclude Include="change_sysname.h" />
+    <ClInclude Include="change_syspassword.h" />
+    <ClInclude Include="change_teacher.h" />
+    <ClInclude Include="change_teachername.h" />
+    <ClInclude Include="change_teacherpassword.h" />
+    <ClInclude Include="change_teacher_start.h" />
+    <ClInclude Include="check.h" />
+    <ClInclude Include="del_book.h" />
+    <ClInclude Include="del_librarian.h" />
+    <ClInclude Include="del_order.h" />
+    <ClInclude Include="del_orderadmin.h" />
+    <ClInclude Include="del_press.h" />
+    <ClInclude Include="del_pressadmin.h" />
+    <ClInclude Include="del_teacher.h" />
+    <ClInclude Include="librarian.h" />
+    <ClInclude Include="Login.h" />
+    <ClInclude Include="oracle_homework5.h" />
+    <ClInclude Include="oracle_homework5Dlg.h" />
+    <ClInclude Include="orderadmin.h" />
+    <ClInclude Include="pressadmin.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="START.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="teacher.h" />
+    <ClInclude Include="teacher_order_book.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AddBookShop.cpp" />
+    <ClCompile Include="add_book.cpp" />
+    <ClCompile Include="add_librarian.cpp" />
+    <ClCompile Include="add_order.cpp" />
+    <ClCompile Include="add_orderadmin.cpp" />
+    <ClCompile Include="add_press.cpp" />
+    <ClCompile Include="add_pressadmin.cpp" />
+    <ClCompile Include="add_teacher.cpp" />
+    <ClCompile Include="change_book.cpp" />
+    <ClCompile Include="change_book_start.cpp" />
+    <ClCompile Include="change_librarian.cpp" />
+    <ClCompile Include="change_librarianname.cpp" />
+    <ClCompile Include="change_librarianpassword.cpp" />
+    <ClCompile Include="change_librarian_start.cpp" />
+    <ClCompile Include="change_order.cpp" />
+    <ClCompile Include="change_orderadmin.cpp" />
+    <ClCompile Include="change_orderadminname.cpp" />
+    <ClCompile Include="change_orderadminpassword.cpp" />
+    <ClCompile Include="change_orderadmin_start.cpp" />
+    <ClCompile Include="change_order_start.cpp" />
+    <ClCompile Include="change_press.cpp" />
+    <ClCompile Include="change_pressadmin.cpp" />
+    <ClCompile Include="change_pressadmin_start.cpp" />
+    <ClCompile Include="change_pressname.cpp" />
+    <ClCompile Include="change_presspassword.cpp" />
+    <ClCompile Include="change_press_start.cpp" />
+    <ClCompile Include="change_sysname.cpp" />
+    <ClCompile Include="change_syspassword.cpp" />
+    <ClCompile Include="change_teacher.cpp" />
+    <ClCompile Include="change_teachername.cpp" />
+    <ClCompile Include="change_teacherpassword.cpp" />
+    <ClCompile Include="change_teacher_start.cpp" />
+    <ClCompile Include="check.cpp" />
+    <ClCompile Include="del_book.cpp" />
+    <ClCompile Include="del_librarian.cpp" />
+    <ClCompile Include="del_order.cpp" />
+    <ClCompile Include="del_orderadmin.cpp" />
+    <ClCompile Include="del_press.cpp" />
+    <ClCompile Include="del_pressadmin.cpp" />
+    <ClCompile Include="del_teacher.cpp" />
+    <ClCompile Include="librarian.cpp" />
+    <ClCompile Include="Login.cpp" />
+    <ClCompile Include="oracle_homework5.cpp" />
+    <ClCompile Include="oracle_homework5Dlg.cpp" />
+    <ClCompile Include="orderadmin.cpp" />
+    <ClCompile Include="pressadmin.cpp" />
+    <ClCompile Include="START.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="teacher.cpp" />
+    <ClCompile Include="teacher_order_book.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="oracle_homework5.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\oracle_homework5.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\logo2.bmp" />
+    <Image Include="res\oracle_homework5.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="oracle_homework5.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
