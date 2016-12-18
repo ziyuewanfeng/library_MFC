@@ -1,0 +1,351 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="oracle_homework5.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oracle_homework5Dlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="START.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Login.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AddBookShop.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="add_librarian.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="add_order.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="add_orderadmin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="add_press.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="add_pressadmin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="add_teacher.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="change_book.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="change_librarianname.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="change_librarianpassword.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="change_order.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="change_orderadminname.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="change_orderadminpassword.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="change_press.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="change_pressname.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="change_presspassword.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="change_sysname.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="change_syspassword.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="change_teachername.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="change_teacherpassword.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="del_teacher.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="librarian.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="orderadmin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pressadmin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="teacher.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="aspect_all_h.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="add_book.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="teacher_order_book.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="check.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="del_pressadmin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="change_pressadmin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="del_order.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="del_orderadmin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="change_orderadmin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="del_librarian.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="change_librarian.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="change_teacher.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="del_book.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="del_press.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="change_pressadmin_start.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="change_orderadmin_start.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="change_librarian_start.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="change_teacher_start.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="change_press_start.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="change_order_start.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="change_book_start.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="oracle_homework5.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="oracle_homework5Dlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="START.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Login.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AddBookShop.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="add_librarian.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="add_order.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="add_orderadmin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="add_press.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="add_pressadmin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="add_teacher.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="change_book.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="change_librarianname.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="change_librarianpassword.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="change_order.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="change_orderadminname.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="change_orderadminpassword.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="change_press.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="change_pressname.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="change_presspassword.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="change_sysname.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="change_syspassword.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="change_teachername.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="change_teacherpassword.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="del_order.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="del_teacher.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="librarian.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="orderadmin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pressadmin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="teacher.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="add_book.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="teacher_order_book.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="check.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="del_pressadmin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="change_pressadmin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="del_orderadmin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="change_orderadmin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="del_librarian.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="change_librarian.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="change_teacher.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="del_book.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="del_press.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="change_pressadmin_start.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="change_orderadmin_start.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="change_librarian_start.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="change_teacher_start.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="change_press_start.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="change_order_start.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="change_book_start.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="oracle_homework5.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\oracle_homework5.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\oracle_homework5.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\logo2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
